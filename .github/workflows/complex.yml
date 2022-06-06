@@ -1,6 +1,9 @@
 name: Complex
 
-on: push
+on: 
+  push:
+    branches:
+      - 'teste'
 
 jobs:
   
